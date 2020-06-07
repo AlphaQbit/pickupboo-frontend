@@ -1,0 +1,40 @@
+* {
+    position:absolute;
+}
+
+.hidden {
+    display: none;
+}
+
+.popUpBackground {
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: #FFFFFF80 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.popupBox {
+    top: 20vh;
+    left: 498px;
+    width: 925px;
+    height: 556px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.closeButton {
+    unset: all;
+    position: relative;
+    top: 2%;
+    left: 95%;
+    width: 32px;
+    height: 32px;
+    background: transparent url('/img/closeButton.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+

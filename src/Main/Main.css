@@ -1,0 +1,146 @@
+
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    top: 0vh;
+    left: 0vw;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.background {
+    height: 100vh;
+    width: 100vw;
+    background: url('/img/background 2.png') 0% 0% padding-box;
+    opacity: 0.1;
+}
+
+.logo {
+    top: 15vh;
+    left: 40vw;
+    width: 20vw;
+    height: 20vh;
+}
+
+.search {
+    top: 50vh;
+    left: 35vw;
+    width: 30vw;
+    height: 6vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0vh 0.5vh 1vh #00000029;
+    border-radius: 0.5vh;
+    opacity: 1;
+}
+
+.locationIcon {
+    top: 2vh;
+    left: 0.5vw;
+    width: 5vw;
+    height: 5vh;
+    background: transparent url('/img/place-black-18dp.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.searchInput {
+    all: unset;
+    position: relative;
+    font: 1.2vw myriad-pro;
+    letter-spacing: 0px;
+    color: #9D9D9D;
+    opacity: 1;
+    width: 27.8vw;
+    height: 6vh;
+    left: 2.2vw;
+
+}
+
+.locateButton {
+    top: -4.2vh;
+    left: 28vw;
+    width: 5vw;
+    height: 5vh;
+    background: transparent url('/img/my_location-24px.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.signInButton {
+    text-align: center;
+    top: 3vh;
+    left: 86vw;
+    width: 5vw;
+    height: 2vh;
+    font: 1.2em myriad-pro;
+    color: #000000;
+    opacity: 1;
+}
+
+.signUpButton {
+    position:relative;
+    text-align: center;
+    top: 1.8vh;
+    left: 92vw;
+    width: 5.5vw;
+    height: 5vh;
+    font: 1.2em myriad-pro;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    color: #000000;
+    box-shadow: 0vh 0.5vh 1vh #00000029;
+    border-radius: 0.5vh;
+    opacity: 1;
+}
+
+.signUpButtonText {
+    position:relative;
+    all:unset;
+    top: 0.2vh;
+    text-align: center;
+    font: 1.2em myriad-pro;
+    color: #000000;
+    opacity: 1;
+}
+
+.businessOwnersButton {
+    top: 2.2vh;
+    width: 10vw;
+    left: 90vw;
+    font: 1.2vw myriad-pro;
+    color: White;
+    opacity: 1;
+}
+
+.aboutUsButton {
+    top: 2.2vh;
+    width: 10vw;
+    left: 83vw;
+    font: 1.2vw  myriad-pro;
+    color: White;
+    opacity: 1;
+}
+
+.supportButton {
+    top: 2.2vh;
+    width: 10vw;
+    text-align: left;
+    left: 76vw;
+    font: 1.2vw  myriad-pro;
+    color: White;
+    opacity: 1;
+}
+
+.FooterContainer{
+    top: 93vh;
+    width: 100vw;
+    left: 0vw;
+    height: 7vh;
+    Background: #777777;
+    opacity: 1;
+}
+
+.DividerDiv{
+    width: 0.1vw;
+    height: 2vh;
+    top: 2.8vh;
+    Background: #FFFFFF;
+}

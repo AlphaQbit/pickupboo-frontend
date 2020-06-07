@@ -1,0 +1,139 @@
+*{
+    position:absolute;
+}
+
+.ShoppingCartPopUpBackground{
+    height: 100vh;
+    width: 100vw;
+    top: 0vh;
+    left: 0vw;
+    background: #FFFFFF80 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.ShoppingCartPopUp{
+    top: 9vh;
+    left: 75vw;
+    width: 25vw;
+    height: 91vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0vh 0.5vh 1vh #00000029;
+    opacity: 1;
+}
+
+.CartTitle{
+    top: 1vh;
+    left:1vw;
+    width: 15vw;
+    height: 4vh;
+    text-align: left;
+    font: Bold 25px/36px Poppins;
+    color: #000000;
+    opacity: 1;
+}
+
+.ItemsDiv{
+    top: 5vh;
+    left:0.8vw;
+    width: 24vw;
+    height: 85vh;
+    text-align: left;
+    font: Bold 25px/36px Poppins;
+    color: #000000;
+    overflow: auto;
+    opacity: 1;
+}
+
+.CartItemCont{
+    top: 2vh;
+    left: 0.5vw;
+    width: 15vw;
+    height: 10vh;
+    background: #FFFFFF00 0% 0% no-repeat padding-box;
+    box-shadow: 0vh 0.5vh 1vh #00000029;
+    border-radius: 0.5vh;
+    opacity: 1;
+}
+
+.CartItemIcon{
+    z-index:1;
+    top: 2.5vh;
+    left: 1vw;
+    width: 2.6vw;
+    height: 5.2vh;
+    opacity: 1;
+}
+
+.CartItemInfo{
+    z-index:1;
+    top: 3.5vh;
+    left: 4.8vw;
+    width: 10vw;
+    height: 5vh;
+    text-align: left;
+    font: 20px/29px Poppins;
+    color: #000000;
+    opacity: 1;
+}
+
+.CartItemPrice{
+    top: 3.5vh;
+    left: 16.5vw;
+    width: 6vw;
+    height: 5vh;
+    text-align: left;
+    font:  20px/29px Poppins;
+    color: #000000;
+    opacity: 1;
+}
+
+.CartItemCancel{
+    left: 21vw;
+    width: 2vw;
+    height: 15vh;
+    background: transparent url('/img/cancel-24px.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.FinalPriceText{
+    top: 93%;
+    left: 5%;
+    width: 30%;
+    height: 5%;
+    text-align: left;
+    font: 20px/29px Poppins;
+    color: #000000;
+    opacity: 1;
+}
+
+.FinalPriceCont{
+    top: 92%;
+    left: 32%;
+    width: 20%;
+    height: 5%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 13px;
+    opacity: 1;
+}
+
+.FinalPrice{
+    top: 93.5%;
+    left: 27%;
+    width: 30%;
+    height: 6%;
+    text-align: center;
+    font: 14px/21px Poppins;
+    color: #000000;
+}
+
+.CheckOut{
+    top: 92%;
+    left: 69%;
+    width: 25%;
+    height: 6%;
+    text-align: left;
+    font: 20px/45px Poppins;
+    color: #000000;
+    opacity: 1;
+}
